@@ -10,14 +10,34 @@ body{
 	height: 100px;
 }
 
+.navbar-brand, .navbar-brand:hover{
+	color: var(--yellorange4)
+}
+
+.for-mobile, .for-mobile2{
+	display: none;
+}
+
 @media screen and (max-width: 481px){
 	#banner{
 		height: 60px;
+	}
+	.for-mobile, .for-desktop{
+		display: none;
+	}
+	.for-mobile2{
+		display: inline-block;
 	}
 }
 
 @media screen and (max-width: 321px){
 	#banner{
 		height: 60px;
+	}
+	.for-mobile2, .for-desktop{
+		display: none;
+	}
+	.for-mobile{
+		display: inline-block;
 	}
 }
