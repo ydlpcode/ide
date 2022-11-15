@@ -10,6 +10,11 @@ body{
 	height: 100px;
 }
 
+nav.navbar{
+	border: solid 2px var(--yellorange4);
+	border-left: none;
+	border-right: none;
+}
 .navbar-brand, .navbar-brand:hover{
 	color: var(--yellorange4)
 }
